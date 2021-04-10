@@ -1,0 +1,176 @@
+<!-- This code is written and edited by VScode -->
+<!-- A look alike site of https://internet.iitb.ac.in -->
+<!-- By Adarsh Dubey -->
+<html>
+  <head>
+  <!--Here we are writing function for the blinking text-->
+
+    <style type = "text/css">
+      #blink {
+        font-size: 20px;
+        font-weight: bold;
+        color: #FF0000;
+        transition: 0.6s;
+      }
+    </style>
+
+    <title>IITB Internet Access </title>
+    <!--icon for title bar-->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/330px-Indian_Institute_of_Technology_Bombay_Logo.svg.png" type = "image/x-icon">
+  </head>
+
+  <body>
+
+  <!--First Here we will make the headline where there will also be a form to login via Ldap id and password-->
+  <!-- First we will use tables in headline two insert our image Title(Computer Center) and afterward login form in seperate columns-->
+  <!-- In order to form Login section we will use another table inside of last table column-->
+
+    <table width = 100% border="0" cellspacing="0" cellpadding="0" >
+        <tr style ="background-color: #483D8B">
+        <td width = 12% height = 12%>
+        <img src = "https://seal.digicert.com/seals/cascade/?tag=oFgDNCGT&referer=internet.iitb.ac.in&lang=en&format=png&seal=3&size=m&an=min">
+        </td>
+        <td align = "left" width = 28%><strong><font color = "#FFFFFF" size ="6px"> &nbsp;COMPUTER CENTER</font><strong></td>
+        <td width = 60%>
+
+
+        <!--Here starts the login form-->
+        <form>
+        <table align="center" border ="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td align="left" width = 6%></td>
+
+        <td align="left" width = 18%><font color="#FFFFFF">
+        <b><br>LDAP-ID:</b>
+        </font>
+        </td>
+
+        <td align="left" width = 18%><font color="#FFFFFF">
+        <b><br>PASSWORD:</b>
+        </font>
+        </td><br>
+
+        <td align="left" width = 18%></td>
+        </tr>
+
+        <tr>
+        <td align="left" width = 6%></td>
+
+        <!--Ldap Id right here-->
+        <td align="left" width = 18%>
+        <input type = text size = 27></td>
+
+        <!--password right here-->
+        <td align="left" width = 18%>
+        <input type = password size = 27></td>
+
+        <!--Login button here-->
+        <td align="left" width = 18%>
+        <input type = submit value="Login" style="width: 80%"></td>
+        </tr>
+
+        </table>
+        </form>
+        </td>
+        </td>
+        </tr>
+    </table>
+    <!--Login form ends Here-->
+
+
+    <table border="1.5" cellspacing="4" cellpadding="4" width=100%>
+    <tr>
+    <td width=100%>
+    <!--Here we will execute our blinking effect on text-->
+    <font><center><b id=blink> ### No planned downtime ### </b></center></font>
+
+    <script type="text/javascript">
+	    var blink = document.getElementById('blink');
+	    setInterval(function() {
+	    blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+	    }, 400);
+	</script>
+    </td>
+
+    </tr>
+    </table>
+    <!--from here will start the rest content of the site-->
+    <table border="1.5" cellspacing="4" cellpadding="4" width=100%>
+    <tr>
+    <td width=50%>
+    <br>
+    <font color="#FF0000" size="4"><b> BEWARE OF PHISING ATTACKS: </b></font>
+    <br><br>
+
+    <font size="3">
+    - Do not give your <strong>LDAP USERID & PASSWORD</strong> to anyone.<br>
+    - Do not enter LDAP login information in any pop up window<br>
+    - Do not reply to any mail asking your login information for any <br>reason.<br>
+    - Do not enter your LDAP login information on any unknown website.<br>
+    - Phishing is a fraudulent attempt, usually made through email seeking<br>
+    your userid, password and personal information.<br>
+    </font>
+
+
+    - If you receive any such email, Please report <a href="https://help-cc.iitb.ac.in/" target="_blank">here</a> immediately.<br>
+    - Immediately change your passwords if you have accidentally revealed<br>
+    your credentials.<br>
+
+    <strong>- Computer Center never asks you for such information.</strong><br><br>
+
+    <font size="4" color="#0000FF"><b>EXAMPLE OF PHISING EMAIL:</b></font><br><br>
+    <font size="2" color="#778899">
+
+    From: support@iitb.ac.in<br>
+	Sent: Thu, Mar 08, 2012 <br>
+    Subject: UPGRADE EMAIL ACCOUNT <br>
+	We are currently upgrading our Server for our Account Holders. In order to upgrade
+    your account, you need<br> to assist us by sending the information below or else your Account
+	might be lost.<br>
+    Provide the below information :<br>
+	User Name :<br>
+    Pass Word :<br>
+	Regards,<br>
+    ADMIN,IIT Bombay<br><br>
+    </font>
+    </td>
+
+
+    <td width=50%>
+    <font color="#FF0000" size="4"><b> ONLINE IT AGREEMENT/POLICY: </b></font><br><br>
+    <font size="3">
+    - All new students, staff & faculty members must read and accept the<br>
+    online IT agreement/policy.<br>
+    - IT services are made available to users only upon acceptance of the<br>
+    IT undertaking.<br>
+    - The IT policy applies to all users of the Institute with or without<br>
+    his knowledge about IT policy and violations will be dealt with strictly.<br><br>
+    </font>
+
+    <font size="4">
+    <b> TO LEARN MORE AND SIGN ONLINE IT POLICY, CLICK <a href="https://www.cc.iitb.ac.in/page/itaccesspolicy" target="_blank"><font color="#FF0000">HERE</font></a></b>
+    <br><br>
+    </font>
+    <font size="4" color="#0000FF"><b>SOME USEFUL LINKS:</b></font><br><br>
+
+    <fo size="3">
+    -<a href="https://www.cc.iitb.ac.in/#gettingstarted-tabpane" target="_blank">Getting Started</a><font color="#778899"> (Faculty, Staff & Student)</font><br>
+    -<a href="https://gpo.iitb.ac.in" target="_blank">GPO-Webmail</a><br>
+    -<a href="ftp://ftp.iitb.ac.in" target="_blank">FTP-Portal</a><br>
+	-<a href="https://help-cc.iitb.ac.in/" target="_blank">Report A Problem</a><br><br>
+    <font size="4" color="#0000FF"><b>CC's HELPDESK:</b></font><br><br>
+
+    -You can visit CC's HelpDesk between<br>
+     11:00 am - 1:00 pm  &  3:30 pm - 5:30 pm<br>
+    &emsp; &emsp; &emsp; At<br>
+    Ground Floor,<br>
+    New Computer Center Building,<br>
+	IIT Bombay.<br>
+    </font>
+    </td>
+    </tr>
+    </table>
+
+
+  </body>
+</html>
